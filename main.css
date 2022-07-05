@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color:#00ff2b;
+}
+#main-container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+#input-bar{
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    order:0;
+}
+h1{
+    order: 2;
+    font-size: 2rem;
+}
+#sort-operations{
+    display: flex;
+    order:3;
+}
+#toggles{
+    display:flex;
+    flex-direction: column;
+    order:1;
+}
+
+
+#gen-array{
+    order:0;
+    color: #00ff2b;
+    background:none;
+    outline: none;
+}
+#sorting-area{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  /*  overflow-y: hidden; */
+    
+    width: 96vw;
+    height: 80vh;
+    padding: 1px;
+}
+#elements{
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+   
+    width: 96vw;
+    height: 86vh;
+    padding: 1px;
+}
+
+.algo-btn{
+    order: 5;
+    color: #00ff2b;
+    background:none;
+}
+.unsorted{
+    border: 1px solid #00ff2b;
+    background-color: #00ff2b;
+}
+
+.arr_el{
+    display: inline-block;
+    width: 5px;
+     border: 0.5px solid #00ff2b; 
+    background-color: #00ff2b;
+    margin:0 2px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <body>
+        <div id="main-container">
+            <div id="input-bar">
+                <button id="gen-array">Generate Array</button>
+                <div id="toggles">
+                    <label for="arr-size">Arry Size</label>
+                    <input id="arr-size"type="range" min="4" max="100" value="50">
+                    <label for="speed">Sort Speed</label>
+                    <input id="speed"type="range" min="1" max="50" value="6">
+                </div>
+                <h1>Sorting Visualizer</h1>
+                <div id="sort-operations">
+                    <button class="algo-btn"id="insertion">Insertion Sort</button>
+                    <button class="algo-btn"id="bubble">Bubble Sort</button>
+                    <button class="algo-btn"id="quick">Quick Sort</button>
+                    <button class="algo-btn"id="selection">Selection Sort</button>
+                </div>
+            </div>
+            <div id="sorting-area">
+                <div id="elements"></div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
